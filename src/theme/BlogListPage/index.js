@@ -27,6 +27,7 @@ import { useTrail, animated } from "react-spring";
 
 import BilibiliIcon from "@site/static/icons/bilibili.svg";
 import CSDNIcon from "@site/static/icons/csdn.svg";
+import JueJinIcon from "@site/static/icons/juejinIcon.svg";
 import Button from "../../components/Button";
 
 import Translate, { translate } from "@docusaurus/Translate";
@@ -194,13 +195,13 @@ function BlogListPage(props) {
                 <Translate description="follow me btn text">
                   去B站关注
                 </Translate>
-                <Translate
+                {/* <Translate
                   id="homepage.followers"
                   description="followers"
                   values={{ count: (Math.round(followers) / 10000).toFixed(1) }}
                 >
                   {" {count} 万"}
-                </Translate>
+                </Translate> */}
               </Button>
             </animated.div>
           </div>
@@ -348,24 +349,27 @@ function SocialLinks({ animatedProps, ...props }) {
   // const { isDarkTheme } = useThemeContext();
   return (
     <animated.div className="social__links" style={animatedProps}>
-      <a href="https://space.bilibili.com/302954484">
+      <a href="https://space.bilibili.com/299974236">
         <BilibiliIcon />
       </a>
-      <a href="https://www.linkedin.com/in/zxuqian/">
+      {/* <a href="https://www.linkedin.com/in/zxuqian/">
         <FontAwesomeIcon icon={faLinkedin} size="lg" />
-      </a>
-      <a href="https://github.com/zxuqian">
+      </a> */}
+      <a href="https://github.com/JACK-ZHANG-coming/zxuqian.cn">
         <FontAwesomeIcon icon={faGithub} size="lg" />
       </a>
-      <a href="https://blog.csdn.net/fengqiuzhihua">
+      <a href="https://blog.csdn.net/weixin_43207103?spm=1000.2115.3001.5343">
         <CSDNIcon />
+      </a>
+      <a href="https://juejin.cn/user/1451011082041517/posts">
+        <JueJinIcon />
       </a>
       <div className="dropdown dropdown--hoverable">
         <FontAwesomeIcon icon={faWeixin} size="lg" />
         <img
           width="50%"
           className="dropdown__menu"
-          src={useBaseUrl("/img/publicQR.webp")}
+          src='https://z3.ax1x.com/2021/05/16/g2S51s.jpg'//{useBaseUrl("/img/publicQR.webp")}
         />
       </div>
     </animated.div>

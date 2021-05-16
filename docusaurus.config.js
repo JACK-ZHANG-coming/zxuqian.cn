@@ -170,8 +170,8 @@ module.exports = {
               to: "https://www.lookroot.cn/",
             },
             {
-              label: "lookroot的个人空间",
-              to: "https://www.lookroot.cn/",
+              label: "峰华的博客主页",
+              to: "https://zxuqian.cn",
             },
           ],
         },
