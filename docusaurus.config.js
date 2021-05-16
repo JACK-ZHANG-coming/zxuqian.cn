@@ -8,11 +8,11 @@ module.exports = {
   //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
   titleDelimiter: "-",
   // url: "https://zxuqian.cn",
-  url: "https://zxuqian.cn",
+  url: "https://zhangqiang.vercel.app",
   baseUrl: "/",
   favicon: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4", // 网站图标
-  organizationName: "zxuqian", // Usually your GitHub org/user name.
-  projectName: "zxuqian.cn", // Usually your repo name.
+  organizationName: "zhangqiang", // Usually your GitHub org/user name.
+  projectName: "zhangqiang.vercel.app", // Usually your repo name.
   themeConfig: {
     // announcementBar: {
     //   id: "feature_release", // Any value that will identify this message.
@@ -114,24 +114,32 @@ module.exports = {
       links: [
         {
           title: "学习",
-          // items: [
-          //   {
-          //     label: "React 即时通信 UI 开发实战",
-          //     to: "docs/course/react-chat-ui/react-chat-ui",
-          //   },
-          //   {
-          //     label: "B 站配套文本",
-          //     to: "docs/videos/videos-intro",
-          //   },
-          //   {
-          //     label: "CSS 教程",
-          //     to: "docs/css/box-model/box-model",
-          //   },
-          //   {
-          //     label: "资源导航",
-          //     to: "docs/resources/resources-intro",
-          //   },
-          // ],
+          items: [
+            {
+              label: "w3school 在线教程",
+              to: "https://www.w3school.com.cn/index.html",
+            },
+            {
+              label: "JavaScript | MDN",
+              to: "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/random",
+            },
+            {
+              label: "前端学习路线",
+              to: "https://objtube.gitee.io/front-end-roadmap/#/",
+            },
+            {
+              label: "使用 State Hook – React",
+              to: "https://zh-hans.reactjs.org/docs/hooks-state.html#gatsby-focus-wrapper",
+            },
+            // {
+            //   label: "CSS 教程",
+            //   to: "docs/css/box-model/box-model",
+            // },
+            // {
+            //   label: "资源导航",
+            //   to: "docs/resources/resources-intro",
+            // },
+          ],
         },
         {
           title: "社交媒体",
@@ -156,6 +164,10 @@ module.exports = {
             {
               label: "yuqing521のblog",
               to: "https://yuqing521.github.io/",
+            },
+            {
+              label: "lookroot的个人空间",
+              to: "https://www.lookroot.cn/",
             },
             {
               label: "lookroot的个人空间",

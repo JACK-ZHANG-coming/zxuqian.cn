@@ -110,7 +110,7 @@ function BlogListPage(props) {
             <animated.div style={animatedTexts[0]} className="hero_text">
               <Translate description="hero greet">Hello! 我是</Translate>
               <span className="intro__name">
-                <Translate description="my name">峰华</Translate>
+                <Translate description="my name">潜心专研的小张同学</Translate>
               </span>
             </animated.div>
             <animated.p style={animatedTexts[1]}>
@@ -118,26 +118,26 @@ function BlogListPage(props) {
                 id="homepage.hero.text"
                 description="hero text"
                 values={{
-                  bilibiliText: (
-                    <Link to="/docs/videos/videos-intro">
-                      <Translate
-                        id="hompage.hero.text.bilibili"
-                        description="Bilibili docs link label"
-                      >
-                        B站视频配套文本、
-                      </Translate>
-                    </Link>
-                  ),
-                  courses: (
-                    <Link to="/docs/course/react-chat-ui/react-chat-ui">
-                      <Translate
-                        id="hompage.hero.text.course"
-                        description="Course link label"
-                      >
-                        系统课程、
-                      </Translate>
-                    </Link>
-                  ),
+                  // bilibiliText: (
+                  //   <Link to="/docs/videos/videos-intro">
+                  //     <Translate
+                  //       id="hompage.hero.text.bilibili"
+                  //       description="Bilibili docs link label"
+                  //     >
+                  //       B站视频配套文本、
+                  //     </Translate>
+                  //   </Link>
+                  // ),
+                  // courses: (
+                  //   <Link to="/docs/course/react-chat-ui/react-chat-ui">
+                  //     <Translate
+                  //       id="hompage.hero.text.course"
+                  //       description="Course link label"
+                  //     >
+                  //       系统课程、
+                  //     </Translate>
+                  //   </Link>
+                  // ),
                   blogs: (
                     <Link to="#homepage_blogs">
                       <Translate
@@ -148,16 +148,16 @@ function BlogListPage(props) {
                       </Translate>
                     </Link>
                   ),
-                  links: (
-                    <Link to="/docs/resources/resources-intro">
-                      <Translate
-                        id="hompage.hero.text.link"
-                        description="Link link label"
-                      >
-                        前端资源导航、
-                      </Translate>
-                    </Link>
-                  ),
+                  // links: (
+                  //   <Link to="/docs/resources/resources-intro">
+                  //     <Translate
+                  //       id="hompage.hero.text.link"
+                  //       description="Link link label"
+                  //     >
+                  //       前端资源导航、
+                  //     </Translate>
+                  //   </Link>
+                  // ),
                   ideas: (
                     <Link to="/tags/%E7%BB%8F%E9%AA%8C">
                       <Translate
@@ -170,17 +170,13 @@ function BlogListPage(props) {
                   ),
                 }}
               >
-                {`在这里，有{bilibiliText}{courses}{blogs}{links}以及UP主的{ideas}。致力于帮助你以最直观、最快速的方式学会前端开发，并希望我的个人经历对你有所启发。`}
+                {`在这里，有{blogs}以及UP主的{ideas}。致力于帮助你以最直观、最快速的方式学会前端开发，并希望我的个人经历对你有所启发。`}
               </Translate>
             </animated.p>
             {currentLocale === "zh-CN" && (
               <animated.p style={animatedTexts[3]}>
                 <Translate id="homepage.qqgroup1" description="qq group1">
-                  QQ 1 群：644722908
-                </Translate>
-                <br />
-                <Translate id="homepage.qqgroup2" description="qq group2">
-                  QQ 2 群：1004912565
+                  QQ 1 群：706947563
                 </Translate>
               </animated.p>
             )}
