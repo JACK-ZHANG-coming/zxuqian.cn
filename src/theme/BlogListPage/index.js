@@ -101,7 +101,7 @@ function BlogListPage(props) {
           name="keywords"
           content="前端, html, css, js, javascript, react, vue, typescript, es6, html5, css3, 性能优化, 兼容性调整"
         />
-        <title>{title} - 让你学会前端开发</title>
+        <title>{title} - 在你学习前端开发的路上帮助你更好的学习！</title>
       </Head>
       {/* 个人简介 */}
       {!isPaginated && (

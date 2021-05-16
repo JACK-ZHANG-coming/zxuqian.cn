@@ -3,29 +3,30 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 
 module.exports = {
-  title: "峰华前端工程师",
+  title: "潜心专研的小张同学", // 网站标签名称
   // tagline:
   //   "帮助你提升前端开发技能，分享 HTML、CSS、JavaScript、React 和 Vue 等开发实战经验",
   titleDelimiter: "-",
+  // url: "https://zxuqian.cn",
   url: "https://zxuqian.cn",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
+  favicon: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4", // 网站图标
   organizationName: "zxuqian", // Usually your GitHub org/user name.
   projectName: "zxuqian.cn", // Usually your repo name.
   themeConfig: {
-    announcementBar: {
-      id: "feature_release", // Any value that will identify this message.
-      content: `更新<a href='/docs/videos/vue/vue-echarts-doughnut-chart'>《Vue 3.0 + ECharts 实现电影票房自定义环形图教程》配套文本</a>；上线小工具栏目，添加<a href='/docs/tools/glassmorphism-generator'>玻璃特效生成器小工具，点击查看</a>`,
-      backgroundColor: "#fafbfc", // Defaults to `#fff`.
-      textColor: "#091E42", // Defaults to `#000`.
-    },
+    // announcementBar: {
+    //   id: "feature_release", // Any value that will identify this message.
+    //   content: `更新<a href='/docs/videos/vue/vue-echarts-doughnut-chart'>《Vue 3.0 + ECharts 实现电影票房自定义环形图教程》配套文本</a>；上线小工具栏目，添加<a href='/docs/tools/glassmorphism-generator'>玻璃特效生成器小工具，点击查看</a>`,
+    //   backgroundColor: "#fafbfc", // Defaults to `#fff`.
+    //   textColor: "#091E42", // Defaults to `#000`.
+    // },
     hideableSidebar: true,
     navbar: {
-      title: "峰华",
+      title: "潜心专研的小张同学",
       logo: {
-        alt: "峰华",
-        src: "img/logo.webp",
-        srcDark: "img/logo.webp",
+        alt: "潜心专研的小张同学",
+        src: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
+        srcDark: "https://avatars.githubusercontent.com/u/44993003?s=400&u=02570a73330dd7eeae310b302962c034b2833988&v=4",
       },
       items: [
         {
@@ -36,63 +37,61 @@ module.exports = {
           to: "/",
           label: "首页",
           position: "right",
-          // items: [
-          //   {
-          //     label: "前端",
-          //     to: "tags/前端",
-          //   },
-          //   {
-          //     label: "职业",
-          //     to: "tags/职业",
-          //   },
-          //   {
-          //     label: "健康",
-          //     to: "tags/健康",
-          //   },
-          // ],
         },
         {
-          label: "学习",
+          label: "专属学习文档",
           position: "right",
           items: [
-            {
-              label: "B 站配套文本",
-              to: "docs/videos/videos-intro",
-            },
             {
               label: "CSS 教程",
-              to: "docs/css/box-model/box-model",
+              // to: "/",
             },
             {
-              label: "资源导航",
-              // position: "right",
-              to: "docs/resources/resources-intro",
+              label: "JavaScript 教程",
+              // to: "/",
             },
+            {
+              label: "react 教程",
+              // to: "/",
+            },
+            // {
+            //   label: "B 站配套文本",
+            //   to: "docs/videos/videos-intro",
+            // },
+            // {
+            //   label: "CSS 教程",
+            //   to: "docs/css/box-model/box-model",
+            // },
+            // {
+            //   label: "资源导航",
+            //   // position: "right",
+            //   to: "docs/resources/resources-intro",
+            // },
           ],
         },
 
-        {
-          label: "课程",
-          position: "right",
-          items: [
-            {
-              label: "React 即时通信 UI 开发实战",
-              to: "docs/course/react-chat-ui/react-chat-ui",
-            },
-          ],
-        },
+        // {
+        //   label: "课程",
+        //   position: "right",
+        //   items: [
+        //     {
+        //       label: "React 即时通信 UI 开发实战",
+        //       to: "docs/course/react-chat-ui/react-chat-ui",
+        //     },
+        //   ],
+        // },
 
-        {
-          label: "小工具",
-          position: "right",
-          to: "docs/tools/tools-intro",
-        },
+        // {
+        //   label: "小工具",
+        //   position: "right",
+        //   to: "docs/tools/tools-intro",
+        // },
 
-        {
-          href: "https://www.itnanls.cn",
-          label: "IT楠老师",
-          position: "right",
-        },
+        // {
+        //   href: "https://www.itnanls.cn",
+        //   label: "IT楠老师",
+        //   position: "right",
+        // },
         {
           href: "https://github.com/zxuqian/zxuqian.cn",
           label: "本站源码",
@@ -115,24 +114,24 @@ module.exports = {
       links: [
         {
           title: "学习",
-          items: [
-            {
-              label: "React 即时通信 UI 开发实战",
-              to: "docs/course/react-chat-ui/react-chat-ui",
-            },
-            {
-              label: "B 站配套文本",
-              to: "docs/videos/videos-intro",
-            },
-            {
-              label: "CSS 教程",
-              to: "docs/css/box-model/box-model",
-            },
-            {
-              label: "资源导航",
-              to: "docs/resources/resources-intro",
-            },
-          ],
+          // items: [
+          //   {
+          //     label: "React 即时通信 UI 开发实战",
+          //     to: "docs/course/react-chat-ui/react-chat-ui",
+          //   },
+          //   {
+          //     label: "B 站配套文本",
+          //     to: "docs/videos/videos-intro",
+          //   },
+          //   {
+          //     label: "CSS 教程",
+          //     to: "docs/css/box-model/box-model",
+          //   },
+          //   {
+          //     label: "资源导航",
+          //     to: "docs/resources/resources-intro",
+          //   },
+          // ],
         },
         {
           title: "社交媒体",
@@ -143,19 +142,11 @@ module.exports = {
             // },
             {
               label: "GitHub",
-              href: "https://github.com/zxuqian/zxuqian.cn",
+              href: "https://github.com/JACK-ZHANG-coming/zxuqian.cn",
             },
             {
               label: "Bilibili 哔哩哔哩",
-              href: "https://space.bilibili.com/302954484",
-            },
-            {
-              label: "网易云课堂",
-              href: "https://study.163.com/course/courseMain.htm?courseId=1210022809&share=2&shareId=480000002172128",
-            },
-            {
-              label: "腾讯课堂",
-              href: "https://ke.qq.com/course/2839093?tuin=3850fdc6",
+              href: "https://space.bilibili.com/299974236",
             },
           ],
         },
@@ -173,7 +164,13 @@ module.exports = {
           ],
         },
       ],
-      copyright: `<p>Copyright © ${new Date().getFullYear()} 峰华 (张旭乾) Built with Docusaurus.</p><p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">冀ICP备14007097号-3</a></p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/creative-commons-license-icon.png" /></a><br />本站所有内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-Hans" style="color: hsl(210deg, 100%, 80%)">CC BY-NC 4.0 协议</a>，转载须注明署名和出处，且不可用于商业用途。若与其他同步平台协议冲突，以本网站为准。`,
+      copyright: `<p>Copyright © ${new Date().getFullYear()} 111峰华 (张旭乾) Built with Docusaurus.</p>
+      <p><a href="http://beian.miit.gov.cn/" style="color: hsl(210deg, 100%, 80%)">冀ICP备14007097号-3</a></p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="/img/creative-commons-license-icon.png" /></a>
+      <br />本站所有内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh-Hans" 
+      style="color: hsl(210deg, 100%, 80%)">CC BY-NC 4.0 协议</a>，转载须注明署名和出处，且不可用于商业用途。
+      若与其他同步平台协议冲突，以本网站为准。`,
     },
     prism: {
       theme: require("prism-react-renderer/themes/github"),
@@ -196,7 +193,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/zxuqian/zxuqian.cn/tree/master",
+          editUrl: "https://github.com/JACK-ZHANG-coming/zxuqian.cn",
           remarkPlugins: [math],
           rehypePlugins: [katex],
           showLastUpdateTime: true,
@@ -209,8 +206,8 @@ module.exports = {
           rehypePlugins: [katex],
           feedOptions: {
             type: "all",
-            title: "峰华前端工程师",
-            copyright: `Copyright © ${new Date().getFullYear()} 峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
+            title: "峰华前端工程师1111",
+            copyright: `Copyright © ${new Date().getFullYear()} 2222峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
           },
         },
         theme: {
@@ -239,8 +236,8 @@ module.exports = {
         path: "./lifestyle",
         feedOptions: {
           type: "all",
-          title: "峰华前端工程师",
-          copyright: `Copyright © ${new Date().getFullYear()} 峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
+          title: "峰华前端工程师2222",
+          copyright: `Copyright © ${new Date().getFullYear()} 3333峰华 (张旭乾) Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/">冀ICP备14007097号-3</a></p>`,
         },
       },
     ],
