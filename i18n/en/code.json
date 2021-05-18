@@ -256,7 +256,7 @@
     "description": "The ARIA label and placeholder for search button"
   },
   "homepage.hero.text": {
-    "message": "I'm a front-end developer. Here you can find the corresponding {bilibiliText}You can also find {courses}{blogs}{links}as well as {ideas}. I will help you learn front-end development in the most intuitive and fastest way. Hope my experience will inspire you.",
+    "message": "I'm a front-end developer. Here you can find the corresponding {bilibiliText}You can also find {blogs}as well as {ideas}. I will help you learn front-end development in the most intuitive and fastest way. Hope my experience will inspire you.",
     "description": "hero text"
   },
   "hompage.hero.text.bilibili": {

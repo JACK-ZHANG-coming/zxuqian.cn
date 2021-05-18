@@ -93,7 +93,7 @@ module.exports = {
         //   position: "right",
         // },
         {
-          href: "https://github.com/zxuqian/zxuqian.cn",
+          href: "https://github.com/JACK-ZHANG-coming/zxuqian.cn",
           label: "本站源码",
           position: "right",
         },
@@ -170,7 +170,7 @@ module.exports = {
               to: "https://www.lookroot.cn/",
             },
             {
-              label: "峰华的博客主页",
+              label: "峰华前端工程师",
               to: "https://zxuqian.cn",
             },
           ],
