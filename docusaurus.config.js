@@ -245,7 +245,7 @@ module.exports = {
       {
         id: "lifestyle-blog",
         routeBasePath: "lifestyle",
-        path: "./lifestyle",
+        path: "/",
         feedOptions: {
           type: "all",
           title: "峰华前端工程师2222",
