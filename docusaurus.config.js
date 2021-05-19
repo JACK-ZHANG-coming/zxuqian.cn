@@ -44,7 +44,7 @@ module.exports = {
           items: [
             {
               label: "CSS 教程",
-              // to: "/",
+              to: "docs/css/css-intro",
             },
             {
               label: "JavaScript 教程",
@@ -108,6 +108,7 @@ module.exports = {
       apiKey: "fabfb0e9997e101154ed85d64b7b6a3c",
       indexName: "ZXUQIANCN",
       appId: "LIJMO3C9C4",
+      contextualSearch: true,
     },
     footer: {
       style: "dark",

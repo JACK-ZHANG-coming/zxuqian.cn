@@ -2,7 +2,7 @@
 
 slug: react-use
 
-title: vscode+react环境部署，运行第一个react框架
+title: vscode+react环境部署，运行第一个react框架11
 
 author: 潜心专研的小张同学
 
@@ -14,7 +14,7 @@ author_image_url: https://avatars.githubusercontent.com/u/44993003?s=400&u=02570
 
 description: s 
 
-tags: [js, 前端, react]
+tags: [js, react, 前端]
 
 activityId: "2021051801"
 
