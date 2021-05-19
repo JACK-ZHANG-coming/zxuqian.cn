@@ -159,16 +159,16 @@ function BlogListPage(props) {
                   //     </Translate>
                   //   </Link>
                   // ),
-                  ideas: (
-                    <Link to="/tags/%E7%BB%8F%E9%AA%8C">
-                      <Translate
-                        id="hompage.hero.text.idea"
-                        description="Idea link label"
-                      >
-                        想法和生活点滴
-                      </Translate>
-                    </Link>
-                  ),
+                  // ideas: (
+                  //   <Link to="/tags/%E7%BB%8F%E9%AA%8C">
+                  //     <Translate
+                  //       id="hompage.hero.text.idea"
+                  //       description="Idea link label"
+                  //     >
+                  //       想法和生活点滴
+                  //     </Translate>
+                  //   </Link>
+                  // ),
                 }}
               >
                 {`在这里，有{blogs}以及UP主的{ideas}。致力于帮助你以最直观、最快速的方式学会前端开发，并希望我的个人经历对你有所启发。`}
